@@ -17,7 +17,7 @@ body {
   color: #242121;
 
   /* 1. Set the font family and colours */
-
+font-family: Georgia, 'Times New Roman', Times, serif;
 
   /* Check out this cool background gradient */
   /* Replace the background with your own gradient styles */
@@ -27,11 +27,11 @@ body {
 
   /* Set the flexbox directives */
   /* 2. Set the display to flex */
-
+display: flex;
   /* 3. Set the flex direction to column */
-
+flex-direction: column;
   /* 4. Set the justify content to space between */
-
+justify-content: space-between;
 }
 
 /*
@@ -44,10 +44,11 @@ header {
 
   /* header is both a flexbox item and a flexbox container */
   /* 5. Set the display to flex */
-
+display: flex;
   /* 6. Set the justify content to space between */
-
+justify-content: space-between;
   /* 7. Set the align items to center */
+  align-items: center;
 }
 
 header .header--banner--logo {
